@@ -87,7 +87,7 @@ spark.stop()
    ```
 
 4. Execution Time: The total execution time is printed.
-   EX:
+
    ``` bash
    Execution time: 7.910405874252319 seconds
    ```
