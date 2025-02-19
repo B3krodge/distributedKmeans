@@ -74,9 +74,23 @@ spark.stop()
 ```
 ## Results
 1. Cluster Centers: The script prints the center of each cluster.
+   ``` bash
+   Cluster Center:  [2022.44190996    6.63067203]
+   Cluster Center:  [2019.19345427  269.99625777]
+   Cluster Center:  [2017.77394259  203.85883106]
+   Cluster Center:  [2015.8378696    78.35481876]
+   ```
 
-2. Silhouette Score: The Silhouette Score is printed to evaluate the clustering quality.
+3. Silhouette Score: The Silhouette Score is printed to evaluate the clustering quality.
+   ``` bash
+   Silhouette Score: 0.8573982693308122
+   ```
 
-3. Execution Time: The total execution time is printed.
+4. Execution Time: The total execution time is printed.
+   EX:
+   ``` bash
+   Execution time: 7.910405874252319 seconds
+   ```
 
-4. Visualization: A scatter plot is displayed showing the clusters.
+5. Visualization: A scatter plot is displayed showing the clusters.
+   ![Alt Text](spark/kmeansClusteringElectricVehicles.png)
