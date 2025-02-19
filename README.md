@@ -17,3 +17,20 @@ To run this project, you need to have the following installed:
 2. **PySpark**: Install PySpark using pip:
    ```bash
    pip install pyspark
+   ```
+Additional Libraries: Install the required libraries:
+```bash
+   pip install numpy matplotlib
+```
+##Usage
+# 1. Clone the Repository:
+```bash
+   git clone https://github.com/B3krodge/distributedKmeans.git
+   cd distributedKmeans
+```
+# 2. Download the Dataset:
+Download the Electric_Vehicle_Population_Data.csv dataset and place it in the ./data/ directory. You can find this dataset here: https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data
+# 3. Run the Script:
+```bash
+python kmeans_clustering.py
+```
